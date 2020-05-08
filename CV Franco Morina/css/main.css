@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*:after {
+  box-sizing: inherit;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+h2::after {
+  content: "";
+  background-color: black;
+  height: 2px;
+  width: 100%;
+  display: block;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  margin-left: 1rem;
+  text-transform: capitalize;
+}
+p {
+  margin-left: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+img {
+  width: 100%;
+  margin-top: 2rem;
+}
+a {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+a i {
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+.fw3-7 {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+.fw1-10 {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+.lado-Iz {
+  background-color: #f4f4f4;
+}
+.lado {
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+p i {
+  font-size: 0.8rem;
+  color: black;
+  margin-right: 0.5rem;
+  margin-top: 0;
+}
+.nombreCv {
+  display: block;
+  border: 2px solid black;
+  margin-top: 3rem;
+  margin-bottom: 4.5rem;
+  padding: 2rem 4rem;
+}
+.nombreCv p {
+  text-align: center;
+  font-size: 4rem;
+}
+.competencias p {
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+.competencias h3 {
+  margin: 0 1rem;
+  font-weight: 700;
+}
